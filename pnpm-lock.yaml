@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@types/rss':
+        specifier: ^0.0.32
+        version: 0.0.32
       axios:
         specifier: ^1.7.3
         version: 1.7.3
@@ -64,6 +67,9 @@ packages:
 
   '@types/node@22.1.0':
     resolution: {integrity: sha512-AOmuRF0R2/5j1knA3c6G3HOk523Ga+l+ZXltX8SF1+5oqcXijjfTd8fY3XRZqSihEu9XhtQnKYLmkFaoxgsJHw==}
+
+  '@types/rss@0.0.32':
+    resolution: {integrity: sha512-2oKNqKyUY4RSdvl5eZR1n2Q9yvw3XTe3mQHsFPn9alaNBxfPnbXBtGP8R0SV8pK1PrVnLul0zx7izbm5/gF5Qw==}
 
   acorn-walk@8.3.3:
     resolution: {integrity: sha512-MxXdReSRhGO7VlFe1bRG/oI7/mdLV9B9JJT0N8vZOhF7gFRR5l3M8W9G8JxmKV+JC5mGqJ0QvqfSOLsCPa4nUw==}
@@ -244,6 +250,8 @@ snapshots:
   '@types/node@22.1.0':
     dependencies:
       undici-types: 6.13.0
+
+  '@types/rss@0.0.32': {}
 
   acorn-walk@8.3.3:
     dependencies:
