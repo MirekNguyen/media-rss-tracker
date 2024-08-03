@@ -38,7 +38,7 @@ const main = async () => {
     feed.item({ title: title.name, description: descriptionFormatter(title), url: title.link, date: new Date() })
   });
   const xml = feed.xml()
-  fs.writeFileSync('public/out.xml', xml)
+  fs.writeFileSync(`public/${process.env.MEDIA_TYPE}.xml`, xml)
 }
 
 main();
